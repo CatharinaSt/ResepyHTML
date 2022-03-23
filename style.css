@@ -1,3 +1,4 @@
+body {margin:0;}
 
 .main-peragraf {
     font-family: Sans-serif;
@@ -13,7 +14,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #FBE4FF;
+  background-color: #B5B9FF;
   position: fixed;
   top: 0;
   width: 100%;
@@ -27,12 +28,16 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 0px 0px;
+  padding: 16px 16px;
   text-decoration: none;
 }
 
-.image-link {
-  background-color: #FFF5BA;
+li a:hover:not(.active) {
+  background-color: #B28DFF;
+}
+
+.active {
+  background-color: #A79AFF;
 }
 
 .container {
