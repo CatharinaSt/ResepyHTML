@@ -1,0 +1,55 @@
+
+.main-peragraf {
+    font-family: Sans-serif;
+    width: 350px;
+    border: 2px;
+    padding: 2px;
+    margin: 2px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6EB5FF;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+}
+
+.image-link {
+  background-color: #AFCBFF;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.container {
+  width: 500px;
+  border: 5px solid rgb(0);
+  border-radius: .5em;
+  padding: 10px;
+}
+
+.resepy-links {
+font-family: Sans-serif;
+  width: 160px;
+  padding: 20px;
+  display: inline-block;
+  vertical-align: middle
+}
