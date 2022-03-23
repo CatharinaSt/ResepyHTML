@@ -13,7 +13,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #6EB5FF;
+  background-color: #FBE4FF;
   position: fixed;
   top: 0;
   width: 100%;
@@ -32,11 +32,7 @@ li a {
 }
 
 .image-link {
-  background-color: #AFCBFF;
-}
-
-body {
-  background-color: lightblue;
+  background-color: #FFF5BA;
 }
 
 .container {
