@@ -1,4 +1,7 @@
-body {margin:0;}
+body {
+  background-color: #DCD3FF;
+  margin:0;
+}
 
 .main-peragraf {
     font-family: Sans-serif;
@@ -41,7 +44,7 @@ li a:hover:not(.active) {
 }
 
 .container {
-  width: 500px;
+  width: 600px;
   border: 5px solid rgb(0);
   border-radius: .5em;
   padding: 10px;
@@ -49,8 +52,20 @@ li a:hover:not(.active) {
 
 .resepy-links {
 font-family: Sans-serif;
-  width: 160px;
-  padding: 20px;
+  width: 230px;
+  padding: 30px;
   display: inline-block;
   vertical-align: middle
+}
+
+.instructions-list {
+  width: 250px;
+  overflow: auto;
+  border: 25px;
+}
+
+.examples {
+  width: 300px;
+  overflow: auto;
+  margin: 10px;
 }
